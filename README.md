@@ -10,7 +10,8 @@ Copy the files server.pem, rootca_cert.pem and ca_certs.pem to the data director
 # vi postgresql.conf
 
 And set parameters in postgresql.conf file like below.
-ssl = on ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL'
+ssl = on
+ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL'
 sl_prefer_server_ciphers = on 
 ssl_cert_file = ' /apps/pgsql/pgdata01/ server.pem'
 ssl_key_file = ' /apps/pgsql/pgdata01/ server.key'
