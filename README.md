@@ -3,7 +3,7 @@
 
 ```text
 Prepare Database Server for SSL Authentication
-$ [cdhadmin@dsspgstst001 ~]$ sudo su
+$  sudo su
 #  cd /apps/pgsql/pgdata01
 
 Copy the files server.pem, rootca_cert.pem and ca_certs.pem to the data directory.
