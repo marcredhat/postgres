@@ -1,5 +1,5 @@
 
-# TLS Enablement on Postgres database level.
+# TLS Enablement on Postgres
 
 ```text
 Prepare Database Server for SSL Authentication
@@ -28,12 +28,12 @@ Test SSL connection from client
 /apps/pgsql/as9.6/bin/psql -p 5432 postgres -h 127.0.0.1
 /apps/pgsql/as9.6/bin/psql -p 5432 edb -h 127.0.0.1
 
-Above commands will connect to Postgres database as SSL connection TLSv1.2. like below:
+Above commands will connect to Postgres database as SSL connection TLSv1.2.
 ```
 
 
 
-# CLOUDERA MANAGER PARAMETERS(to enable TLS on Postgres)
+# Cloudera Manager parameters (to enable TLS on Postgres)
 
 
 ```text
